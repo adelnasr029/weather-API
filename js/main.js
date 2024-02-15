@@ -2,7 +2,7 @@
 document.querySelector('button').addEventListener('click', getRandomPic)
 
 function getRandomPic(){
-    const url = 'http://api.weatherapi.com/v1/current.json?key=73709cdbefb0492baed155524240202&q=banha&aqi=yes'
+    const url = 'https://api.weatherapi.com/v1/current.json?key=73709cdbefb0492baed155524240202&q=banha&aqi=yes'
 
     fetch(url)
     .then(res => res.json())
